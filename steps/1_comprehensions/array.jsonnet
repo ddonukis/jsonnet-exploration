@@ -1,9 +1,5 @@
 {
     type: "person",
-    birthplace: {
-        city: "Sydney",
-        country: "Australia",
-    },
     education: [
         {
             type: "school",
@@ -11,15 +7,10 @@
         },
         {
             type: "high school",
-            location: {
-                city: $.birthplace.city,
-                country: $.birthplace.country,
-            },
             duration: 2,
         },
         {
             type: "university",
-            location: $.birthplace,
             duration: 5,
         },
     ],
